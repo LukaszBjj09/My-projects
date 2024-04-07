@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Tribute page" />
+  <title id="title">Ada Lovelace</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main id="main">
+    <h1 id="title">Augusta Ada King (Lovelace)</h1>
+    <h3>Ada Lovelace (1815–1852) was a British mathematician and writer, widely regarded as the world's first computer programmer for her pioneering work on Charles Babbage's Analytical Engine.</h3>
+    <div class="img-container" id="img-div">
+      <img src="https://www.daysoftheyear.com/cdn-cgi/image/dpr=1%2Cf=auto%2Cfit=cover%2Cheight=465%2Cq=70%2Csharpen=1%2Cwidth=1000/wp-content/uploads/ada-lovelace-day1-e1571044337962.jpg" alt="ada" class="ada-image" id="image" />
+      <div class="caption" id="img-caption">Ada Lovelace, daughter of the poet Lord Byron, was raised by her mother, Annabella Milbanke, who emphasized her education in mathematics and science to counteract Byron's reputation. This upbringing shaped Ada's interest in both logic and creativity.</div>
+    </div>
+    <div class="life">
+      <p class="life-header bold">Here is a time line of Ada Lovelace's life:</p>
+      <ul id="tribute-info">
+        <li><span class="bold">1815: Ada Lovelace is born on December 10 in London, England, as Augusta Ada Byron, the only legitimate child of the poet Lord Byron and Lady Anne Isabella Milbanke.</span></li>
+        <li><span class="bold">1816: Ada's parents separate shortly after her birth, and her mother, Lady Byron, takes Ada away from her father.</span></li>
+        <li><span class="bold">1824: Ada's mother encourages her interest in mathematics and science, hoping to steer her away from her father's poetic influence.</span></li>
+        <li><span class="bold">1833: Ada meets Charles Babbage, a mathematician and inventor, who introduces her to his proposed Analytical Engine, an early mechanical computer.</span></li>
+        <li><span class="bold">1842: Ada translates an article about the Analytical Engine by Italian mathematician Luigi Federico Menabrea from French to English and adds extensive notes, including an algorithm for the Engine to compute Bernoulli numbers. This is considered the first computer program.</span></li>
+        <li><span class="bold">1852: Ada Lovelace dies of cancer on November 27 at the age of 36.</span></li>
+        <li><span class="bold">1979: Ada Lovelace's contributions to computing are recognized, and the U.S. Department of Defense names a programming language "Ada" in her honor. 1999: Ada Lovelace is inducted into the Women's Hall of Fame in the United States for her contributions to computer science.</span></li>
+        <li><span class="bold">2009: Ada Lovelace Day is founded to celebrate the achievements of women in science, technology, engineering, and mathematics (STEM).</span></li>
+        <li><span class="bold">2015: The bicentenary of Ada Lovelace's birth is celebrated worldwide with events and exhibitions highlighting her contributions to computing and STEM fields.</span></li>
+      </ul>
+    </div>
+    <div class="quote-container">
+      <p class="quote">"I am more than ever now the bride of science."</p>
+      <p class="quote-author"> -- Ada Lovelace --</p>
+    </div>
+    <h3>
+      Highly recommend reading more about this great woman.
+      <a id="tribute-link" href="https://en.wikipedia.org/wiki/Ada_Lovelace" target="_blank">Wikipedia page</a>
+    </h3>
+  </main>
+</body>
+</html>
